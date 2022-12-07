@@ -1,0 +1,26 @@
+{
+    "name": "aurelia-hotjar",
+    "version": "1.0.0",
+    "type": "module",
+    "private": false,
+    "files": [
+        "dist"
+    ],
+    "types": "./dist/types/index.d.ts",
+    "main": "./dist/index.umd.cjs",
+    "module": "./dist/index.js",
+    "scripts": {
+        "build": "tsc && vite build && tsc -d --declarationDir dist/types --declarationMap --emitDeclarationOnly",
+        "test": "vitest",
+        "coverage": "vitest run --coverage"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.11",
+        "aurelia-bootstrapper": "2.4.0",
+        "aurelia-loader-nodejs": "1.1.0",
+        "jsdom": "^20.0.3",
+        "typescript": "^4.6.4",
+        "vite": "^3.2.3",
+        "vitest": "^0.25.5"
+    }
+}
