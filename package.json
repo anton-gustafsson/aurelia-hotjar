@@ -1,6 +1,22 @@
 {
     "name": "aurelia-hotjar",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "repository": {
+		"type": "git",
+		"url": "git+https://github.com/anton-gustafsson/aurelia-hotjar.git"
+	},
+	"keywords": [
+		"hotjar",
+		"aurelia",
+        "plugin",
+        "tracking",
+        "heatmap"
+	],
+    "author": "Anton Gustafsson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anton-gustafsson/aurelia-hotjar"
+	},
     "type": "module",
     "private": false,
     "files": [
