@@ -36,7 +36,7 @@
         "aurelia-loader-nodejs": "1.1.0",
         "jsdom": "^20.0.3",
         "typescript": "^4.6.4",
-        "vite": "^3.2.3",
+        "vite": "^3.2.7",
         "vitest": "^0.25.5"
     }
 }
